@@ -1,0 +1,13 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  padding: 20px;
+  background-color: #c0eea9;
+  height: 120px;
+  -webkit-box-shadow: 0px 10px 7px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 7px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 7px -9px rgba(0, 0, 0, 0.75);
+}

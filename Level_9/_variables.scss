@@ -1,0 +1,7 @@
+$green:rgb(223, 172, 31);
+$standard-padding:10px;
+
+@mixin test($text) {    max-width: 700px;
+    text-align: $text;
+    
+}
