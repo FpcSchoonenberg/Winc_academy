@@ -5,7 +5,7 @@ const transLeft = function () {
 const listenerMenu = function () {
     document.querySelector(".container").addEventListener("mouseOver" ,transLeft());
 }
-// select all listitems and convert to array, so it can be used as argument for another function 
+//select all listitems and convert to array, so it can be used as argument for another function 
 function selectListItems() {
     const listItemArray = Array.from(document.querySelectorAll('li'));
     return listItemArray;
@@ -19,12 +19,13 @@ const Listener = function (listItemArray) {
             const colorClass = listItem.className;
             const bodyColor = document.querySelector('body').style.backgroundColor = colorClass;
             const textColor = document.querySelector('.textwrapper').innerHTML = `Backgroundcolor: ${colorClass}`;
+            let posLeft   = document.querySelector('.menu-content').style.left ="-250px"
         });
     })
 }
-
-Listener(selectListItems());
 listenerMenu();
+Listener(selectListItems());
+
 
 
 
